@@ -1,4 +1,7 @@
-Hello world
-This is a test file
-Hello again world
-Python is fun
+Hello world once.
+Python is fun.
+Hello world twice.
+Python is fun again.
+Hello world three times.
+Stella is a puppy.
+
