@@ -1,39 +1,77 @@
 # Python Log Regression Demo
 
-A Python log parser with automated regression tests using `pytest`.  
+A Python log parser with automated regression tests using `pytest`.
 Supports extracting error lines, word frequency analysis, log-level classification, CSV reporting, and automatic test log generation.
 
 ---
 
 ## 🚀 Features
 
-- Extract `ERROR` lines from log files  
-- Count total lines and word frequency  
-- Classify log lines by level: `INFO` / `WARNING` / `ERROR`  
-- Output top N frequent words  
-- Save word frequency results to CSV  
-- Automatically generate test logs for regression  
-- Fully tested using `pytest` (regression loop)
+* 📌 Extract `ERROR` lines from log files
+* 📊 Count total lines and word frequency
+* ⚠️ Classify log lines by level: `INFO` / `WARNING` / `ERROR`
+* 🔝 Output top N frequent words
+* 📂 Save word frequency results to CSV
+* 📝 Automatically generate test logs for regression
+* 🧪 Fully tested using `pytest` (regression loop)
 
 ---
 
 ## 🗂️ Project Structure
 
 ```
-python_log_regression_demo/  
-│  
-├── logs/  
-│   └── sample.log           # Sample log file  
-
-├── src/  
-│   └── log_parser.py        # Main Python script  
-
-├── tests/  
-│   └── test_log_parser.py   # pytest test file  
-
-└── README.md                # Project description / documentation  
+python_log_regression_demo/
+│
+├── logs/
+│   └── sample.log           # Sample log file
+│
+├── src/
+│   └── log_parser.py        # Main Python script
+│
+├── tests/
+│   └── test_log_parser.py   # pytest test file
+│
+└── README.md                # Project description / documentation
 ```
 
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/my-username/python_log_regression_demo.git
+cd python_log_regression_demo
+```
+
+(Optional) Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Usage
+
+Run the main script:
+
+```bash
+python3 src/log_parser.py
+```
+
+Run tests:
+
+```bash
+python3 -m pytest -v
+```
+
+---
+
+## 📄 License
+
+This project is for learning purposes.
 
 
 
