@@ -19,19 +19,20 @@ Supports extracting error lines, word frequency analysis, log-level classificati
 
 ## 🗂️ Project Structure
 
-python_log_regression_demo/
-│
-├── logs/
-│   └── sample.log          # Sample log file
-│
-├── src/
-│   └── log_parser.py       # Main Python script
-│
-├── tests/
-│   └── test_log_parser.py  # pytest test file
-│
-└── README.md               # Project description / documentation
+```
+python_log_regression_demo/  
+│  
+├── logs/  
+│   └── sample.log           # Sample log file  
 
+├── src/  
+│   └── log_parser.py        # Main Python script  
+
+├── tests/  
+│   └── test_log_parser.py   # pytest test file  
+
+└── README.md                # Project description / documentation  
+```
 
 
 
