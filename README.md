@@ -1,4 +1,23 @@
-# python_log_regression_demo
+# Python Log Regression Demo
+
+A Python log parser with automated regression tests using `pytest`.  
+Supports extracting error lines, word frequency analysis, log-level classification, CSV reporting, and automatic test log generation.
+
+---
+
+## 🚀 Features
+
+- Extract `ERROR` lines from log files  
+- Count total lines and word frequency  
+- Classify log lines by level: `INFO` / `WARNING` / `ERROR`  
+- Output top N frequent words  
+- Save word frequency results to CSV  
+- Automatically generate test logs for regression  
+- Fully tested using `pytest` (regression loop)
+
+---
+
+## 🗂️ Project Structure
 
 python_log_regression_demo/
 │
